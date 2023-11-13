@@ -10,7 +10,7 @@ useSeoMeta({
   twitterDescription: "[twitter:description]",
   twitterImage: "[twitter:image]",
   twitterCard: "summary",
-});
+})
 
 useHead({
   htmlAttrs: {
@@ -23,9 +23,9 @@ useHead({
       href: "/favicon.png",
     },
   ],
-});
+})
 
-const { data: scizor } = await useFetch("/api/charizard");
+const { data: scizor } = await useFetch("/api/charizard")
 </script>
 <template>
   <Navbar />

@@ -7,14 +7,25 @@
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
   }
+
+  .centerFlexDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /* NAVBAR */
   .navContainer {
     @apply flex flex-row bg-white border-gray-200 dark:bg-gray-900 fixed top-0 left-0 z-50 w-full py-5;
   }
 
   .navUlRoute {
-    @apply flex flex-row font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700;
+    @apply flex flex-row font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 text-white;
   }
+
+  .mainNav {
+    @apply flex flex-row justify-between items-center w-full px-4 md:px-8;
+  }
+
   /* MAIN CONTENT POSITIONNING */
   .mainContent {
     @apply flex flex-col justify-center w-full h-full py-15 my-4;
