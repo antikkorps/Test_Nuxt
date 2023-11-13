@@ -30,8 +30,14 @@
   .mainContent {
     @apply flex flex-col justify-center w-full h-full py-15 my-4;
   }
+
   /* MAIN TITLE */
   .mainTitle {
     @apply text-4xl font-bold text-center text-gray-800 dark:text-gray-500;
+  }
+
+  /* CARD CONTAINER */
+  .card_container {
+    @apply flex flex-col justify-center items-center w-full h-full px-4 md:px-8 py-5;
   }
 }

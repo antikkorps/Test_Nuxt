@@ -23,7 +23,6 @@ const profile = {
 
 <template>
   <div>
-    <Navbar />
     <div>
       <img
         class="h-32 w-full object-cover lg:h-48"

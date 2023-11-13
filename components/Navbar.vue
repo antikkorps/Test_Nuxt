@@ -20,12 +20,12 @@ const user = {
 const navigation = [
   { name: "Accueil", href: "/", current: true },
   { name: "A propos", href: "/about", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Tats4U", href: "/tats", current: false },
   { name: "Profile", href: "/profile", current: false },
   { name: "Dashboard", href: "#", current: false },
 ]
 const userNavigation = [
-  { name: "Your Profile", href: "#" },
+  { name: "Your Profile", href: "/profile" },
   { name: "Settings", href: "#" },
   { name: "Sign out", href: "#" },
 ]
@@ -55,10 +55,10 @@ const userNavigation = [
             />
           </div>
           <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4">
-            <a
+            <NuxtLink
               v-for="item in navigation"
               :key="item.name"
-              :href="item.href"
+              :to="item.href"
               :class="[
                 item.current
                   ? 'bg-gray-900 text-white'
@@ -66,7 +66,7 @@ const userNavigation = [
                 'rounded-md px-3 py-2 text-sm font-medium',
               ]"
               :aria-current="item.current ? 'page' : undefined"
-              >{{ item.name }}</a
+              >{{ item.name }}</NuxtLink
             >
           </div>
         </div>
@@ -117,13 +117,13 @@ const userNavigation = [
                     :key="item.name"
                     v-slot="{ active }"
                   >
-                    <a
-                      :href="item.href"
+                    <NuxtLink
+                      :to="item.href"
                       :class="[
                         active ? 'bg-gray-100' : '',
                         'block px-4 py-2 text-sm text-gray-700',
                       ]"
-                      >{{ item.name }}</a
+                      >{{ item.name }}</NuxtLink
                     >
                   </MenuItem>
                 </MenuItems>

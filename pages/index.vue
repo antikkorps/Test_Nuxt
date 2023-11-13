@@ -30,23 +30,9 @@ useHead({
 <template>
   <div>
     <Navbar />
-    <div class="mainContent bg-green-700">
-      <h2 class="mainTitle">Bienvenue sur le réseau social</h2>
-      <h3 class="mainTitle">Dédié au tatouage</h3>
-      <p>Current route: {{ route.path }}</p>
+    <Hero />
 
-      <a href="https://nuxt.com/docs/getting-started/routing" target="_blank"
-        >Learn more about Nuxt Routing</a
-      >
-      <div class="flex flex-row w-full">
-        <div
-          class="bg-stone-700 basis-1/3 hover:basis-1/2 hover:transition-all hover:ease-linear transition-all ease-linear py-5 shadow-xl"
-        >
-          flex on hover
-        </div>
-      </div>
-      <Tats />
-    </div>
+    <Tats />
   </div>
 </template>
 
