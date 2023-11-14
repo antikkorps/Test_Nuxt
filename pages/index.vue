@@ -36,8 +36,8 @@ useHead({
   </div>
 </template>
 
-<style>
+<style scoped>
 body {
-  background-color: blanchedalmond;
+  background-color: #f9fafb;
 }
 </style>

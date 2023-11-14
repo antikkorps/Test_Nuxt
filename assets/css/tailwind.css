@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #f9fafb;
+}
+
 @layer components {
   .py-15 {
     padding-top: 3.75rem;

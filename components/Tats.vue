@@ -5,7 +5,7 @@
       <NuxtImg
         class="w-full"
         src="https://picsum.photos/200/300"
-        alt="Sunset in the mountains"
+        alt="Tats Illustration"
       />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
