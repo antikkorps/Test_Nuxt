@@ -28,7 +28,7 @@ useHead({
 </script>
 
 <template>
-  <div>
+  <div class="pb-14">
     <Navbar />
     <Hero />
 
