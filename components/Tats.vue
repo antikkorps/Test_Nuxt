@@ -30,6 +30,7 @@
           >#winter</span
         >
       </div>
+      <AddComments />
     </div>
   </div>
 </template>

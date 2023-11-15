@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const route = useRoute()
 useSeoMeta({
-  title: "[title]",
+  title: "Accueil",
   description: "[description]",
   ogTitle: "[og:title]",
   ogDescription: "[og:description]",
@@ -36,8 +36,4 @@ useHead({
   </div>
 </template>
 
-<style scoped>
-body {
-  background-color: #f9fafb;
-}
-</style>
+<style></style>
