@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div class="card_container">
+    <CardHeader />
     <div class="max-w-sm rounded overflow-hidden shadow-lg">
       <NuxtImg
         class="w-full"

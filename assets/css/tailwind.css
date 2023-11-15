@@ -47,6 +47,6 @@ body {
 
   /* CARD CONTAINER */
   .card_container {
-    @apply flex flex-col justify-center items-center w-full h-full px-4 md:px-8 py-5;
+    @apply flex flex-col justify-center items-center w-full h-full px-4 md:px-8 pt-1 pb-10;
   }
 }
