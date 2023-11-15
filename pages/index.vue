@@ -32,7 +32,7 @@ useHead({
     <Navbar />
     <Hero />
 
-    <Tats />
+    <CardTats />
   </div>
 </template>
 

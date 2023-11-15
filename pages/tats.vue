@@ -1,5 +1,5 @@
 <template>
   <Navbar />
   <StoriesUpdates />
-  <Tats />
+  <CardTats />
 </template>
