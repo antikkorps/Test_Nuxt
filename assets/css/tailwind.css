@@ -40,6 +40,11 @@ body {
     @apply text-4xl font-bold text-center text-gray-800 dark:text-gray-500;
   }
 
+  /* SECUNDARY TITLE */
+  .secundaryTitle {
+    @apply text-2xl font-bold text-center text-gray-800 dark:text-gray-500 mt-5;
+  }
+
   /* CARD CONTAINER */
   .card_container {
     @apply flex flex-col justify-center items-center w-full h-full px-4 md:px-8 py-5;
