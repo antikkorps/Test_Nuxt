@@ -31,7 +31,6 @@ useHead({
   <div class="pb-14">
     <Navbar />
     <Hero />
-
     <CardTats />
   </div>
 </template>
