@@ -29,7 +29,7 @@
         <input
           type="search"
           id="default-search"
-          class="block w-full p-4 ps-10 text-sm text-gray-900 border-b-2 border-gray-300 rounded-md dark:bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500"
+          class="block w-full p-4 ps-10 text-sm text-gray-900 border-b-2 border-gray-300 rounded-md dark:bg-gray-50 focus:border-b-2 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500"
           placeholder="Rechercher des artistes, des villes, des styles ..."
           required
         />
